@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (qty > 0) {
           const subtotal = price * qty;
           total += subtotal;
-          summary += `${checkbox.value} Gallon × ${qty} = ₱${subtotal}<br>`;
+          summary += `${checkbox.value} Gallon (₱${price}) × ${qty} = ₱${subtotal}<br>`;
         }
       }
     });
