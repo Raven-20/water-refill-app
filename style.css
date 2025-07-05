@@ -34,4 +34,17 @@ body {
     background: #e3f2fd;
     border-radius: 5px;
   }
+
+  button#clearBtn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
   
+  button#clearBtn:hover {
+    background-color: #d32f2f;
+  }    
